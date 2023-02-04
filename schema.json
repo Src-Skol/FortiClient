@@ -1,0 +1,25 @@
+{
+  "type": "object",
+
+  "properties": {
+    "ProfileServerUrl": {
+      "type": "string"
+    },
+
+    "AuthServerUrl": {
+      "type": "string"
+    },
+
+    "RatingServerUrl": {
+      "type": "string"
+    },
+
+    "InvitationCode": {
+      "type": "string"
+    },
+
+    "SerialNumber": {
+      "type": "string"
+    }
+  }
+}

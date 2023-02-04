@@ -1,0 +1,37 @@
+<html>
+<head><title>FortiClient WebFilter Settings</title></head>
+
+<body>
+Logging:
+<select id="logging">
+ <option value="None">None</option>
+ <option value="Error">Error</option>
+ <option value="Info">Info</option>
+ <option value="Debug">Debug</option>
+</select>
+<button id="save">Save</button>
+
+<br><br>
+rating mode:
+<select id="mode">
+ <option value="sync">Sync</option>
+ <option value="async">Async</option>
+</select>
+<div id="rate_option_div"><input type="checkbox" id="rate_option" value="address_bar_only">rate url on address bar only</div>
+<div id="safe_search_div"><input type="checkbox" id="safe_search_option" value="safe_search">safe search</div>
+<br><button id="save_mode">Set Mode</button>
+
+<br><br>
+<button id="clearcache">Clear Cached URL Rating List</button>
+<br><br>
+<button id="list_config">List Config</button>
+<div id="webfilter_config"></div>
+
+<br><br>
+<button id="revoke">revoke refresh token</button>
+
+</body>
+
+<script src="options.js"></script>
+
+</html>
